@@ -188,7 +188,7 @@ const App = () => {
           <div className="p-8 space-y-8">
             <div className="bg-discord-darker rounded-lg p-6">
               <h2 className="text-2xl font-bold mb-4">Contact me</h2>
-              <p className="text-gray-300 mb-8">You can contact me via Email, Discord or Instagram. I usually respond within a day.</p>
+              <p className="text-gray-300 mb-8">You can contact me via Email or Discord. I usually respond within a day.</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {portfolioData.contactCards.map((contact, index) => (
