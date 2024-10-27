@@ -4,7 +4,7 @@ import discordPortfolioImage from "../assets/discordPortfolio.png";
 export const portfolioData = {
   name: "Imperivox",
   location: "Düsseldorf, Germany",
-  description: "I'm a 16-year-old Full-Stack Web Developer with over 5 years of programming experience.",
+  description: "I'm a 16-year-old Full-Stack Developer with over 5 years of programming experience.",
   about: "I have been engaged in professional web development for several years, creating minimalist, high-speed full-stack websites focused on accessibility, optimization, and SEO.",
   skills: ["JavaScript", "React", "Node.js", "Python", "HTML5", "CSS3", "TypeScript", "MongoDB", "PostgreSQL", "Docker", "Git", "Rust", "Java", "Vercel", "Vite", "MariaDB", "Roblox Studio", "Next.js", "TailwindCSS", "Lua"],
   servers: [
@@ -13,7 +13,7 @@ export const portfolioData = {
     { id: "blog", name: "Blog", icon: "B" },
     { id: "contact", name: "Contact", icon: "C" },
   ],
-/*  socialLinks: [
+  socialLinks: [
     {
       name: "Github",
       icon: "Github",
@@ -29,7 +29,7 @@ export const portfolioData = {
       icon: "Discord",
       link: "discord://@Imperivox",
     },
-  ], */
+  ],
   contactCards: [
     {
       icon: "Gmail",
