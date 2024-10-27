@@ -13,7 +13,7 @@ export const portfolioData = {
     { id: "blog", name: "Blog", icon: "B" },
     { id: "contact", name: "Contact", icon: "C" },
   ],
-  socialLinks: [
+/*  socialLinks: [
     {
       name: "Github",
       icon: "Github",
@@ -29,14 +29,8 @@ export const portfolioData = {
       icon: "Discord",
       link: "discord://@Imperivox",
     },
-  ],
+  ], */
   contactCards: [
-    {
-      icon: "Github",
-      title: "Github",
-      value: "github.com/Imperivox",
-      link: "https://github.com/Imperivox",
-    },
     {
       icon: "Gmail",
       title: "Email",
