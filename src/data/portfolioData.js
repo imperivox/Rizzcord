@@ -58,7 +58,7 @@ export const portfolioData = {
       description: "A Discord-inspired portfolio built with React and TailwindCSS.",
       image: discordPortfolioImage,
       technologies: ["HTML", "CSS", "Javascript", "TailwindCSS", "React", "Vercel"],
-      link: "https://github.com/yourusername/ai-chat",
+      link: "https://imperivox.vercel.app/",
       linkType: "site",
     },
   ],
