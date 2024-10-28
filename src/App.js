@@ -83,6 +83,13 @@ const SocialLinks = ({ links }) => (
   </div>
 );
 
+const SocialButton = ({ icon, link, tooltip }) => (
+  <motion.a href={link} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} className="relative group">
+    <IconComponent iconName={icon} size={6} className="text-gray-400 hover:text-white transition-colors duration-200" />
+    <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-discord-darker rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">{tooltip}</span>
+  </motion.a>
+);
+
 const App = () => {
   const [selectedServer, setSelectedServer] = useState("about");
   const [visiblePostId, setVisiblePostId] = React.useState(null);
@@ -109,10 +116,10 @@ const App = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-end gap-4">
-                  <div className="flex gap-3">
-                    <motion.div whileHover={{ scale: 1.1 }} className="w-3 h-3 rounded-full bg-green-500" title="Online" />
-                    <motion.div whileHover={{ scale: 1.1 }} className="w-3 h-3 rounded-full bg-yellow-500" title="Idle" />
-                    <motion.div whileHover={{ scale: 1.1 }} className="w-3 h-3 rounded-full bg-red-500" title="Do Not Disturb" />
+                  <div className="flex gap-4">
+                    <SocialButton icon="Gmail" link="mailto:your.email@example.com" tooltip="Send Email" />
+                    <SocialButton icon="Discord" link="https://discord.com/users/yourid" tooltip="Connect on Discord" />
+                    <SocialButton icon="Github" link="https://github.com/yourusername" tooltip="View GitHub Profile" />
                   </div>
                   <SocialLinks links={portfolioData.socialLinks} />
                 </div>
