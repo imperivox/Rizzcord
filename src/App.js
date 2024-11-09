@@ -23,7 +23,7 @@ const IconComponent = ({ iconName, size = 24, className = "" }) => {
   ) : null;
 };
 
-const InfiniteScroll = ({ skills }) => {
+const InfiniteScroll = ({ skillsLine1, skillsLine2 }) => {
   const controlsLeft = useAnimationControls();
   const controlsRight = useAnimationControls();
 
@@ -71,8 +71,8 @@ const InfiniteScroll = ({ skills }) => {
     <div className="relative w-full overflow-hidden">
       <div className="absolute left-0 top-0 w-[100px] h-full bg-gradient-to-r from-discord-dark to-transparent z-10" />
       <div className="absolute right-0 top-0 w-[100px] h-full bg-gradient-to-l from-discord-dark to-transparent z-10" />
-      {renderSkillLine(skills, "left")}
-      {renderSkillLine(skills, "right")}
+      {renderSkillLine(skillsLine1, "left")}
+      {renderSkillLine(skillsLine2, "right")}
     </div>
   );
 };
@@ -137,7 +137,7 @@ const App = () => {
 
             <div className="space-y-4">
               <h2 className="text-xl font-bold">What I Work With</h2>
-              <InfiniteScroll skills={portfolioData.skills} />
+              <InfiniteScroll skillsLine1={portfolioData.skills1} skillsLine2={portfolioData.skills2} />
             </div>
 
             <div className="space-y-6">
