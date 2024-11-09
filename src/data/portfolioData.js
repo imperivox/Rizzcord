@@ -25,7 +25,7 @@ export const portfolioData = {
       icon: "Discord",
       title: "Discord",
       value: "@Imperivox",
-      link: "discord://@Imperivox",
+      link: "https://discord.com/users/827963439481487440",
     },
     {
       icon: "Instagram",
