@@ -7,7 +7,8 @@ export const portfolioData = {
   location: "Düsseldorf, Germany",
   description: "I'm a 16-year-old Full-Stack Developer with over 5 years of programming experience.",
   about: "I have been engaged in professional web development for several years, creating minimalist, high-speed full-stack websites focused on accessibility, optimization, and SEO.",
-  skills: ["JavaScript", "Python", "HTML5", "CSS3", "React", "Node.js", "TypeScript", "Git", "Docker", "Firebase", "PostgreSQL", "MongoDB", "MySQL", "Java", "Next.js", "TailwindCSS", "Vercel", "Vite", "Rust", "MariaDB", "GitHub", "Nginx", "Lua", "Roblox Studio"],
+  skills1: ["JavaScript", "Python", "Java", "Rust", "Lua", "TypeScript", "React", "Next.js", "Node.js", "Git", "GitHub", "Roblox Studio"],
+  skills2: ["HTML5", "CSS3", "TailwindCSS", "Docker", "MariaDB", "PostgreSQL", "MongoDB", "MySQL", "Firebase", "Vercel", "Nginx"],
   servers: [
     { id: "about", name: "About Me", icon: "AM" },
     { id: "portfolio", name: "Portfolio", icon: "P" },
