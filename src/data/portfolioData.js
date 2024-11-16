@@ -1,6 +1,7 @@
 import duolankiImage from "../assets/duolanki.png";
 import discordPortfolioImage from "../assets/discordPortfolio.png";
 import luaVoxDungeonImage from "../assets/luaVoxDungeon.png";
+import rustreeImage from "../assets/rustree.png";
 
 export const portfolioData = {
   name: "Imperivox",
@@ -58,6 +59,14 @@ export const portfolioData = {
       image: luaVoxDungeonImage,
       technologies: ["Lua"],
       link: "https://github.com/imperivox/LuaVoxDungeon",
+      linkType: "source",
+    },
+    {
+      title: "Rustree",
+      description: "A simple command-line tool for managing and visualizing Git branches, written in Rust.",
+      image: rustreeImage,
+      technologies: ["Rust"],
+      link: "https://github.com/imperivox/Rustree",
       linkType: "source",
     },
   ],
