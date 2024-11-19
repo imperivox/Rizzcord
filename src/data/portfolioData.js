@@ -135,5 +135,12 @@ If you check out the site, feel free to send me feedback or just say hi! This is
 
       `,
     },
+    {
+      id: 2,
+      title: "",
+      date: "2024-11-19",
+      excerpt: "",
+      content: ``,
+    },
   ],
 };
